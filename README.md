@@ -1,4 +1,4 @@
-[![Build Status](https://api.travis-ci.org/streadway/amqp.svg)](http://travis-ci.org/streadway/amqp) [![GoDoc](https://godoc.org/github.com/streadway/amqp?status.svg)](http://godoc.org/github.com/streadway/amqp)
+[![Build Status](https://api.travis-ci.org/streadway/amqp.svg)](http://travis-ci.org/streadway/amqp) [![GoDoc](https://godoc.org/github.com/hedhyw/amqp?status.svg)](http://godoc.org/github.com/hedhyw/amqp)
 
 # Go RabbitMQ Client Library
 
@@ -7,10 +7,10 @@ This is an AMQP 0.9.1 client with RabbitMQ extensions in Go.
 ## Project Maturity
 
 This project has been used in production systems for many years. It is reasonably mature
-and feature complete, and as of November 2016 has [a team of maintainers](https://github.com/streadway/amqp/issues/215).
+and feature complete, and as of November 2016 has [a team of maintainers](https://github.com/hedhyw/amqp/issues/215).
 
 Future API changes are unlikely but possible. They will be discussed on [Github
-issues](https://github.com/streadway/amqp/issues) along with any bugs or
+issues](https://github.com/hedhyw/amqp/issues) along with any bugs or
 enhancements.
 
 ## Supported Go Versions
@@ -62,7 +62,7 @@ please file an issue.
 
 ## Documentation
 
-Use [Godoc documentation](http://godoc.org/github.com/streadway/amqp) for
+Use [Godoc documentation](http://godoc.org/github.com/hedhyw/amqp) for
 reference and usage.
 
 [RabbitMQ tutorials in
@@ -79,7 +79,7 @@ To run the integration tests, make sure you have RabbitMQ running on any host,
 export the environment variable `AMQP_URL=amqp://host/` and run `go test -tags
 integration`.  TravisCI will also run the integration tests.
 
-Thanks to the [community of contributors](https://github.com/streadway/amqp/graphs/contributors).
+Thanks to the [community of contributors](https://github.com/hedhyw/amqp/graphs/contributors).
 
 ## External packages
 
